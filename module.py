@@ -15,7 +15,7 @@ class SortByData:
 
 class DownloadPath:
     def __init__(self, cafe_id: int):
-        self.cafe_id: Final[int] = cafe_id
+        self.cafe_id: int = cafe_id
 
     def article_list(self, menu_id: int) -> str:
         return f'{os.getcwd()}/articles/{self.cafe_id}/{menu_id}'
@@ -23,7 +23,7 @@ class DownloadPath:
     def menu_list(self) -> str:
         return f'{os.getcwd()}/menus/{self.cafe_id}'
 
-    def search_article_list(self, query) -> str:
+    def search_article_list(self, query: str) -> str:
         return f'{os.getcwd()}/search/{self.cafe_id}/{query}'
 
     @staticmethod
@@ -76,6 +76,7 @@ class NaverCafeArchive(DownloadPath):
             dict(article_id=article['articleId'],
                  article_title=article['subject'],
                  article_writer=article['writerId'],
+                 article_is_open=article['openArticle'],
                  article_view=article['readCount'],
                  article_like=article['likeItCount'],
                  article_comment=article['commentCount'],
@@ -110,7 +111,7 @@ class NaverCafeArchive(DownloadPath):
                  article_content_html=api_get_json['result']['article']['contentHtml'])
         )
 
-    def search_articles(self, query: str, sort_by: SortByData, result_count: int):
+    def search_articles(self, query: str, sort_by: str, result_count: int):
         URL: Final[str] = f'{self.api_host}/cafe-web/cafe-mobile/CafeMobileWebArticleSearchListV3?' \
                           f'cafeId={self.cafe_id}&' \
                           f'query={query}&' \
@@ -154,7 +155,7 @@ class NaverCafeArchive(DownloadPath):
         end_time: float = time.time()
         print(f'✅ Menu List Download Finished in {end_time - start_time} seconds')
 
-    def download_search_article_list_csv(self, query: str, sort_by: SortByData, result_count: int) -> None:
+    def download_search_article_list_csv(self, query: str, sort_by: str, result_count: int) -> None:
         start_time: float = time.time()
         result: Generator = self.search_articles(query, sort_by, result_count)
         save_directory_path = self.search_article_list(query)
