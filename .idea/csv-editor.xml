@@ -3,7 +3,105 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\2022_12_28_20_48_00.csv">
+        <entry key="\10050146_2022_12_29_21_13_56.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\10050146_2383_2022_12_29_21_13_56.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\10050146_i3_date_2022_12_29_21_13_56.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\articles\10050146\2383\2023_01_02_12_03_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\articles\10050146\2383\2023_01_02_12_08_23.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\articles\10050146\47\2023_01_02_12_11_53.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\articles\27842958\362\2023_01_02_12_20_28.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\articles\27842958\626\2023_01_02_12_18_50.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\menus\10050146\2023_01_02_12_03_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\menus\27842958\2023_01_02_12_18_09.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\search\10050146\i3\NEWEST_2023_01_02_12_15_28.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\search\10050146\i5\NEWEST_2023_01_02_12_15_33.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\search\10050146\라이젠 5800X3D\NEWEST_2023_01_02_12_15_14.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\search\27842958\BMW\NEWEST_2023_01_02_12_21_37.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\search\27842958\오뱅계륵\SIMILARITY_2023_01_02_12_23_20.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
