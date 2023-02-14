@@ -33,7 +33,7 @@ class DownloadPath:
 
 
 class NaverCafeArchive:
-    __version__: str = '0.1.1'
+    __version__: str = '0.1.2'
 
     def __init__(self, cafe_id: Union[str, int]) -> None:
         self.api_host: Final[str] = 'https://apis.naver.com'
