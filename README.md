@@ -13,5 +13,4 @@
 pip3 install spdlqj
 ```
 
-<img alt="Result_1" src="./docs/result_1.png" />
-<img alt="Result_2" src="./docs/result_2.png" />
+<img alt="Result_2" src="https://github.com/kitae0522/Naver-Cafe-Archive/blob/main/docs/result_2.png" />
